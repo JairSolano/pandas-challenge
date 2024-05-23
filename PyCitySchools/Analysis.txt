@@ -1,0 +1,22 @@
+Pandas Challenge
+PyCitySchools Analysis
+By: Jair Solano
+
+I was given two data files for PyCitySchools District and will analyze the data to get a better understanding of the school district's current status.
+
+First I merged the data to create one DataFrame with all the data in one place. Both files contained school_name, that was the columns used to merge the data. 
+
+With the data combined I moved to get top level pulse of the district, by obtaining the average math and reading score, number of students in the district, percentage of student's math and reading scores, as well as the percentage of overall passing students. This draws a big picture of to where the district stands.
+
+Having the district's overview is good; however, I went on to determine what contributed to the district's numbers. In order to do so, I moved on to find out the data per school. Breaking down the data per school allows for further insight of the school's performance. 
+
+Once the data was separated by schools I began to separate the data by certain categories. 
+	Categories:
+		Scores by Grade Level
+		Scores by School Spending
+		Scores by School Size
+		Scores by School Type
+
+
+I have determined that the budget of the school does not have direct correlation to the Overall Passing Percentage of the school. Also, most charter schools are small to medium sized and most district schools are large.
+The highest Overall Passing Percentage comes from schools that have 2,000 students or less (medium sized school), thus resulting in Charter Schools having a higher Overall Passing Percentage. 
